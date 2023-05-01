@@ -1,0 +1,127 @@
+*{
+      font-family: serif;
+      box-sizing: border-box;
+}
+body{
+      overflow-y: hidden;
+}
+
+.college-container{
+      display: block; 
+      
+}
+
+.natural-science,.Social-science,.Health-science,.Informatics,.Engineering{
+      position: absolute;
+      display:inline;  
+      width: 19%;
+      max-height: 85%;
+      overflow-y: auto;
+}
+.natural-science{
+      left:1%;
+}
+
+.Social-science{
+      left:20%;
+}
+
+.Health-science{
+      left:39%;
+}
+
+.Informatics{
+      left:58%;
+}
+
+.Engineering{
+      left:77%;
+}
+
+.department{
+      display: none;
+      background-color: rgb(250, 248, 245);
+      transition: all 0.5s;
+}
+
+.department a {
+   display: block; 
+   text-decoration: none;  
+   color:black;
+   padding-left: 5px;
+   padding-top: 7px;
+   padding-bottom: 5px;
+   transition: 0.5s;
+}
+
+.department a:hover{
+ background-color:green;
+}
+
+.I-Am-Hidden a{
+      display: block; 
+      text-decoration: none;  
+      color:black;
+      margin-left: 13.5%;
+      padding-top: 7px;
+      padding-bottom: 5px;
+      transition: 0.5s;    
+}
+.I-Am-Hidden >a{
+      margin-left: 30.5%;    
+}
+
+.Model-btn,.Exit-btn{
+     margin-left: 12%;
+     cursor: pointer;
+}
+
+.subject{
+   cursor: pointer;   
+}
+
+.I-Am-Hidden a:hover{
+      background-color:green;    
+}
+
+.I-Am-Hidden{
+      display: none;
+}
+
+.You-Are-Shown{
+      display: block;
+      position: relative;    
+}
+
+.Natural-Botton,.Social-Botton,.Health-Botton,.Informatics-Botton,.Engineering-Botton{
+     border-width: 0px;
+     color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.Natural-Botton:hover,.Social-Botton:hover,.Health-Botton:hover,.Informatics-Botton:hover,.Engineering-Botton:hover{
+      background-color: green;
+}
+.natural-science:hover  .department{
+      display: block;
+}
+
+
+.Social-science:hover  .department{
+      display: block;
+}
+
+.Health-science:hover  .department{
+      display: block;
+}
+
+.Informatics:hover  .department{
+      display: block;
+}
+
+.Engineering:hover  .department{
+      display: block;
+}

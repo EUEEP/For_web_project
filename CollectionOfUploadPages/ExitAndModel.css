@@ -1,0 +1,27 @@
+fieldset{
+      margin: 1%;
+      border:10px solid green;
+}
+
+.Question{
+      width: 86%;
+      height: 230px;
+      margin: 1%;
+      column-count: 20;
+}
+
+.options{
+      width: 70%;
+      height: 90px;
+      border-radius: 1.5%;
+      margin-left:1%; 
+      margin-top: 1%;  
+}
+
+#upload{
+   margin-top:2%;
+   margin-left: 60%;
+}
+#clear{
+      margin-top:2%;
+}
