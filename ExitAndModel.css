@@ -1,16 +1,13 @@
 fieldset{
-      margin: 1%;
-      border:10px solid green;
+      border:7px solid green;
 }
 
 .Question{
       width: 86%;
-      height: 230px;
-      margin: 1%;
-      column-count: 20;
+      height: 150px;
 }
 
-.options{
+.options,.ans{
       width: 70%;
       height: 90px;
       border-radius: 1.5%;
@@ -24,4 +21,7 @@ fieldset{
 }
 #clear{
       margin-top:2%;
+}
+.error{
+      color:red;
 }
